@@ -1,5 +1,6 @@
 package com.cazallau.noteapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,7 +25,8 @@ public class NotesListActivity extends AppCompatActivity {
 
         if (id == R.id.menu_main_action_add_note) {
 
-            //TODO: me queda por abrir la pantalla de las notas
+            Intent i = new Intent(NotesListActivity.this, NoteDetailActivity.class);
+            startActivity(i);
 
             return true;
         }
