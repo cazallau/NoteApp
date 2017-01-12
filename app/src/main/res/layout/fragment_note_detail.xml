@@ -1,9 +1,31 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.cazallau.noteapp.NoteDetailFragment"
-    android:background="@android:color/holo_blue_dark">
+    android:background="@android:color/holo_blue_dark"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/fragment_note_detail_title_text"
+        android:hint="Enter note title"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/fragment_note_detail_description"
+        android:hint="Enter note description"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="match_parent"
+        android:gravity="top|left"
+        android:padding="10dp"
+        android:layout_below="@id/fragment_note_detail_title_text"/>
 
 
-</FrameLayout>
+
+
+</RelativeLayout>
