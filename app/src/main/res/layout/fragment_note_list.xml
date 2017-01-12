@@ -3,8 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.cazallau.noteapp.NoteListFragment"
-    android:background="@android:color/holo_blue_dark">
+    android:background="@android:color/holo_red_dark">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        android:textSize="30dp"/>
 
 
 </FrameLayout>

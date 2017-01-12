@@ -17,7 +17,7 @@ public class NoteDetailFragment extends Fragment {
     public NoteDetailFragment() {
         // Required empty public constructor
     }
-
+    //asas
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
