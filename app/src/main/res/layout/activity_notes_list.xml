@@ -11,6 +11,7 @@
     tools:context="com.cazallau.noteapp.NotesListActivity">
 
     <fragment
+        android:id="@+id/activity_notes_list_fragment_note_list"
         android:name="com.cazallau.noteapp.NoteListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
