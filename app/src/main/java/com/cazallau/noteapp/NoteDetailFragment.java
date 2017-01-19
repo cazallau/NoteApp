@@ -98,4 +98,6 @@ public class NoteDetailFragment extends Fragment {
         editor.apply();
 
     }
+
+
 }
